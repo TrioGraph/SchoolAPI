@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\School\\API\\SchoolAPI\\SchoolAPI.csproj": {}
+    "D:\\School\\API\\SchoolAPI\\SchoolAPI.csproj": {}
   },
   "projects": {
-    "d:\\School\\API\\SchoolAPI\\SchoolAPI.csproj": {
+    "D:\\School\\API\\SchoolAPI\\SchoolAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\School\\API\\SchoolAPI\\SchoolAPI.csproj",
+        "projectUniqueName": "D:\\School\\API\\SchoolAPI\\SchoolAPI.csproj",
         "projectName": "SchoolAPI",
-        "projectPath": "d:\\School\\API\\SchoolAPI\\SchoolAPI.csproj",
+        "projectPath": "D:\\School\\API\\SchoolAPI\\SchoolAPI.csproj",
         "packagesPath": "C:\\Users\\npava\\.nuget\\packages\\",
-        "outputPath": "d:\\School\\API\\SchoolAPI\\obj\\",
+        "outputPath": "D:\\School\\API\\SchoolAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,13 +50,45 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.10, )"
             },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.2.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.2.1, )"
             }
           },
           "imports": [
